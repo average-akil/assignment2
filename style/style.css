@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=New+Amsterdam&display=swap");
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: aliceblue;
+  background-color: black;
+  width: 80vw;
+  margin: 0 auto;
+}
+nav {
+  margin-top: 25px;
+}
+
+#logo {
+  color: orangered;
+}
+.nav1 {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 2.5px;
+  border: 1px solid white;
+  border-style: none;
+  background-color: none;
+  border-radius: 7px;
+}
+.button1 {
+  border: 0.5px solid white;
+  border-radius: 8px;
+}
+.hero1 {
+  display: flex;
+  flex-direction: column;
+
+  color: aliceblue;
+}
+.zero {
+  display: inline;
+  justify-items: space-between;
+}
+.btn2 {
+  border: 1px solid white;
+  color: aliceblue;
+  border-radius: 12px;
+  padding: 12px;
+}
+.head {
+  color: aliceblue;
+  font-size: 40px;
+}
+.para {
+  color: rgb(50, 58, 58);
+  font-size: 15px;
+}
+.btn3 {
+  background-color: orangered;
+}
+#first {
+  background-color: orangered;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.body2 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 65px;
+}
+.card img {
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+.card {
+  color: aliceblue;
+}
+.white {
+  color: white;
+}
+.grey {
+  color: grey;
+}
+.body3 {
+  margin-top: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 21, 21);
+  border-radius: 7px;
+}
+.run2 img {
+  width: 400px;
+}
+.bmi7 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.bmi4 {
+  margin-top: 100px;
+  background-color: rgba(34, 34, 34, 1);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 57vh;
+  display: flex;
+  padding-top: 10px;
+}
+.bmi button{
+    color: orange;
+        border: 1px solid aliceblue;
+        padding: 5px;
+        font-size: 1rem;
+}
+
+.bmi5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bmi6 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 40px;
+  border: 1px solid rgb(68, 68, 68);
+  text-align: left;
+}
+
+td,
+th {
+  border: 1px solid rgb(68, 68, 68);
+  padding: 10px;
+}
+
+.bmi {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bmi2 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  margin: 5px;
+}
+
+.bmi3 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 18px 40px 12px 267px;
+  margin: 5px;
+}
+
+.foot1 h1 {
+  font-size: 70px;
+  color: orangered;
+}
+.foot {
+  margin-top: 50px;
+  padding: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  align-items: center;
+
+  gap: 50px;
+}
+.foot > div {
+  margin: 0 20px;
+}
+#last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+#line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+.team-pos {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.img-holder {
+  position: relative;
+
+  padding-top: 50px;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 2fr);
+  gap: 10px;
+}
+.text-holder {
+  position: absolute;
+  padding-top: 50px;
+  padding-bottom: 9px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.text-holder2 {
+  position: absolute;
+  padding-top: 650px;
+  padding-bottom: 9px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10rem;
+}
+.img-item {
+  height: 290px;
+  width: 350px;
+  border: 1px solid white;
+  text-align: center;
+}
+.head7 {
+  font-size: 39px;
+}
+.para2 {
+  color: azure;
+}
+.btn4{
+    padding: 15px 15px 15px 15px;
+    background-color:  orangered;
+    border: 1px solid aliceblue;
+}
+.text-holder3{
+    display: none;
+}
+.head8{
+    display: block;
+}
+@media screen and (max-width: 576px) {
+    .button {
+        flex-direction: column;
+    }
+    
+   
+    .button1 button:not(#menu-button) {
+        display: none;
+    }
+    #logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+  .hero ,.hero1 ,.body1 , .body2 ,.body3  , .body4  {
+        align-items: center;
+        flex-direction: column;
+    }
+   
+    .body3 img{
+  
+        max-width : 75%;
+        border-radius: 13px;
+             padding-top: 20px;
+    }
+    .hero1{
+        display: inline;
+        flex-direction: column;
+         padding-right: 35%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+       padding-right:  80%;
+        
+    }
+   
+    .bmi4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 650px;
+    }
+    .bmi5 , .bmi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .bmi p{
+        color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bmi button{
+        color: orange;
+        border: 1px solid aliceblue;
+        padding: 5px;
+        font-size: 1rem;
+        
+    }
+    .bmi h4{
+        font-size: 1rem;
+    }
+    .bmi6{
+        
+        padding-top: 0px;
+    }
+   .bmi6 h3{
+    font-size: 1.0rem;
+   }
+    .bmi4{
+       background-color: black);
+    }
+    .team{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        
+    }
+    .img-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-holder ,.text-holder2{
+        display: none;
+    }
+    .text-holder3{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .head10{
+        font-size: 1rem;
+        color: aliceblue;
+    }
+    .para5{
+        color: grey;
+    }
+    .head8{
+        display: none;
+    }
+}
